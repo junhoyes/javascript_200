@@ -26,3 +26,11 @@ family.addfaily(30,'chloe','aunt')
 family.addfaily(3,'lyn','niece')
 family.addfaily(30,'mungmung','dog')
 console.log(family.getheadcount());//family객체의 getheadcount함수를 호출하여 meber 개수 (인원수)를 출력
+
+/*
+    JSON은 자바스크립트 객체와 매우 유사한 구조를 지닌 데이터 교환 형식이다.
+    JSON 형태는 객체와 비슷하게 키:값 쌍의 모음들로 이루어져 있다. 그러나 반드시 속성키 이름은 큰따옴표로 표시한 문자열이고 값은 오직 문자열 숫자 배열,true,false,null 또는 JSON객체만 가능하다.
+    {"key":value}
+    
+
+*/
