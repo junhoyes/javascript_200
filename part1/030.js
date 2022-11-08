@@ -8,13 +8,13 @@ const addFamily = function(age,name,role){
     this.members[role] ={age,name};
 }
 const getheadcount = function(){
-    return Object.keys(this,members).length;
-
+    return Object.keys(this.members).length;
+}
     const family = {adress, members,addFamily,getheadcount};
 
-    family.addFamily(30.'chole','aunt');
-    family.addFamily(3.'lyn','niece');
-    family.addFamily(30.'mun','dog');
+    family.addFamily(30,'chole','aunt');
+    family.addFamily(3,'lyn','niece');
+    family.addFamily(30,'mun','dog');
     console.log(family.getheadcount());
 
 }
